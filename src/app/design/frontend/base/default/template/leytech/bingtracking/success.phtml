@@ -1,0 +1,8 @@
+<?php if ($this->_helper->isEnabled()) : ?>
+<!-- Bing Conversion Tracking -->
+<script>
+    window.uetq = window.uetq || [];
+    window.uetq.push('event', '', {'revenue_value': <?php echo $this->getData('bing_tracking_amount'); ?>, 'currency': '<?php echo $this->getData('bing_currency_code'); ?>'});
+</script>
+<!-- /Bing Conversion Tracking -->
+<?php endif; ?>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package    Leytech_BingTracking
+ * @author     Chris Nolan (chris@leytech.co.uk)
+ * @copyright  Copyright (c) 2019 Leytech
+ * @license    https://opensource.org/licenses/MIT  The MIT License  (MIT)
+ */
+-->
+<config>
+    <modules>
+        <Leytech_BingTracking>
+            <version>1.0.0</version>
+        </Leytech_BingTracking>
+    </modules>
+    <global>
+        <blocks>
+            <leytech_bingtracking>
+                <class>Leytech_BingTracking_Block</class>
+            </leytech_bingtracking>
+        </blocks>
+        <helpers>
+            <leytech_bingtracking>
+                <class>Leytech_BingTracking_Helper</class>
+            </leytech_bingtracking>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <leytech_bingtracking>
+                    <file>leytech/bingtracking.xml</file>
+                </leytech_bingtracking>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <leytech_bingtracking>
+            <settings>
+                <enabled>0</enabled>
+                <uet_tag></uet_tag>
+            </settings>
+        </leytech_bingtracking>
+    </default>
+</config>
