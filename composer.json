@@ -1,0 +1,13 @@
+{
+    "name": "leytech/leytech_bingtracking",
+    "type": "magento-module",
+    "description": "A Magento extension that implements Bing ads visitor and conversion tracking.",
+    "homepage": "https://github.com/leytech/Leytech_ContactFormSpam",
+    "require": {
+        "php": ">=5.4.0",
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra":{
+        "magento-root-dir": "src/"
+    }
+}

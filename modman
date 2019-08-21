@@ -1,0 +1,4 @@
+src/app/code/community/Leytech/BingTracking                             app/code/community/Leytech/BingTracking
+src/app/design/frontend/base/default/layout/leytech/bingtracking.xml    app/design/frontend/base/default/layout/leytech/bingtracking.xml
+src/app/design/frontend/base/default/template/leytech/bingtracking      app/design/frontend/base/default/template/leytech/bingtracking
+src/app/etc/modules/Leytech_BingTracking.xml                            app/etc/modules/Leytech_BingTracking.xml
